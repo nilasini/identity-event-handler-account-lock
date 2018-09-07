@@ -26,7 +26,7 @@
 
     <groupId>org.wso2.carbon.identity.event.handler.accountlock</groupId>
     <artifactId>identity-handler-account-lock</artifactId>
-    <version>1.1.13-SNAPSHOT</version>
+    <version>1.1.14-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - Identity Account Lock Module</name>
@@ -271,6 +271,9 @@
         <maven.compiler.plugin.version>2.3.1</maven.compiler.plugin.version>
         <maven.scr.plugin.version>1.7.2</maven.scr.plugin.version>
         <maven.bundle.plugin.version>2.4.0</maven.bundle.plugin.version>
+
+        <carbon.commons.imp.pkg.version>[4.4.0, 5.0.0)</carbon.commons.imp.pkg.version>
+        <carbon.identity.package.import.version.range>[5.0.0, 6.0.0)</carbon.identity.package.import.version.range>
 
     </properties>
 
